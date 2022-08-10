@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.InstaPos" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/grad_color_1</item>
+        <item name="colorPrimaryDark">@color/grad_color_1</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorSecondaryVariant">@color/accent</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+
+
+    </style>
+
+    <style name="report_title">
+        <item name="android:padding">10dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="Theme.InstaPos.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.InstaPos.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.InstaPos.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="BlackDialogRoundedCorners" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">@drawable/juspay_nb_waiting_black_bg</item>
+    </style>
+</resources>

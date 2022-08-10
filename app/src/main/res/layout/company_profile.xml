@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.frags.CreateProfile.companyProfile.CompanyProfile">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="@dimen/card_corner_radius"
+            app:cardElevation="@dimen/car_elevation_small"
+
+            app:cardUseCompatPadding="true">
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Company Profile"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/enter_your_company_details" />
+
+                    <androidx.cardview.widget.CardView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="@dimen/card_corner_radius"
+
+                        app:cardElevation="@dimen/car_elevation_small"
+                        app:cardUseCompatPadding="true">
+
+
+                        <Spinner
+                            android:id="@+id/spinner"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:entries="@array/bussiness_type"
+                            android:padding="20dp" />
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="@dimen/card_corner_radius"
+
+                        app:cardElevation="@dimen/car_elevation_small"
+                        app:cardUseCompatPadding="true">
+
+                        <EditText
+
+                            android:id="@+id/etGstin"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:background="@android:color/transparent"
+
+                            android:ems="10"
+                            android:hint="  GSTIN"
+                            android:inputType="textPersonName"
+                            android:padding="10dp" />
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="@dimen/card_corner_radius"
+
+                        app:cardElevation="@dimen/car_elevation_small"
+                        app:cardUseCompatPadding="true">
+
+                        <EditText
+                            android:id="@+id/companyName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:background="@android:color/transparent"
+                            android:drawableStart="@drawable/ic_user"
+                            android:ems="10"
+                            android:hint="  Company Name"
+                            android:inputType="textPersonName"
+                            android:padding="10dp" />
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="@dimen/card_corner_radius"
+
+                        app:cardElevation="@dimen/car_elevation_small"
+                        app:cardUseCompatPadding="true">
+
+                        <EditText
+                            android:id="@+id/address"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:background="@android:color/transparent"
+                            android:drawableStart="@drawable/ic_home_address"
+                            android:ems="10"
+                            android:hint="  Address"
+                            android:inputType="textPostalAddress"
+                            android:padding="10dp" />
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="@dimen/card_corner_radius"
+
+                        app:cardElevation="@dimen/car_elevation_small"
+                        app:cardUseCompatPadding="true">
+
+                        <EditText
+                            android:id="@+id/pinCode"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:background="@android:color/transparent"
+                            android:ems="10"
+                            android:hint="  Pin Code"
+                            android:inputType="number"
+                            android:padding="10dp" />
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="10dp">
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/previous"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            app:cardBackgroundColor="@color/grad_color_1"
+                            app:cardCornerRadius="@dimen/card_corner_radius"
+                            app:cardElevation="@dimen/car_elevation_small"
+                            app:cardUseCompatPadding="true">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:padding="16dp"
+                                android:text="@string/back"
+                                android:textColor="@color/white" />
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/next"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            app:cardBackgroundColor="@color/grad_color_2"
+                            app:cardCornerRadius="@dimen/card_corner_radius"
+                            app:cardElevation="@dimen/car_elevation_small"
+                            app:cardUseCompatPadding="true">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:padding="16dp"
+                                android:text="@string/next"
+                                android:textColor="@color/white" />
+                        </androidx.cardview.widget.CardView>
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+        </androidx.cardview.widget.CardView>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</FrameLayout>

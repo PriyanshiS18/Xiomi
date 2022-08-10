@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/gangw/Desktop/CODE/EStartUpIndia/InstaPos/app/src/main/res/layout/activity_main.xml" value="0.36574074074074076" />
+        <entry key="..\:/Users/gangw/Desktop/CODE/EStartUpIndia/InstaPosNew/app/src/main/res/drawable/drawable_row_spinner.xml" value="0.29921875" />
+        <entry key="..\:/Users/gangw/Desktop/CODE/EStartUpIndia/InstaPosNew/app/src/main/res/drawable/drawable_row_spinner_normal.xml" value="0.29921875" />
+        <entry key="..\:/Users/gangw/Desktop/CODE/EStartUpIndia/InstaPosNew/app/src/main/res/drawable/drawable_row_spinner_pressed.xml" value="0.29921875" />
+        <entry key="..\:/Users/gangw/Desktop/CODE/EStartUpIndia/InstaPosNew/app/src/main/res/drawable/ic_close_grey.xml" value="0.2075" />
+        <entry key="..\:/Users/gangw/Desktop/CODE/EStartUpIndia/InstaPosNew/app/src/main/res/drawable/ic_file_download.xml" value="0.2075" />
+        <entry key="..\:/Users/gangw/Desktop/CODE/EStartUpIndia/InstaPosNew/app/src/main/res/drawable/ic_keyboard_arrow.xml" value="0.2075" />
+        <entry key="..\:/Users/gangw/Desktop/CODE/EStartUpIndia/InstaPosNew/app/src/main/res/drawable/ic_keyboard_arrow_up_white.xml" value="0.2075" />
+        <entry key="..\:/Users/gangw/Desktop/CODE/EStartUpIndia/InstaPosNew/app/src/main/res/drawable/ic_sync.xml" value="0.29921875" />
+        <entry key="..\:/Users/gangw/Desktop/CODE/EStartUpIndia/InstaPosNew/app/src/main/res/drawable/juspay_nb_waiting_black_bg.xml" value="0.161" />
+        <entry key="..\:/Users/gangw/Desktop/CODE/EStartUpIndia/InstaPosNew/app/src/main/res/drawable/rounded_back.xml" value="0.29921875" />
+        <entry key="..\:/Users/gangw/Desktop/CODE/EStartUpIndia/InstaPosNew/app/src/main/res/drawable/side_nav_bar.xml" value="0.29921875" />
+        <entry key="..\:/Users/gangw/Desktop/CODE/EStartUpIndia/InstaPosNew/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/gangw/Desktop/CODE/EStartUpIndia/InstaPosNew/app/src/main/res/layout/activity_main2.xml" value="0.2549019607843137" />
+        <entry key="..\:/Users/gangw/Desktop/CODE/EStartUpIndia/InstaPosNew/app/src/main/res/layout/app_bar_main.xml" value="0.287109375" />
+        <entry key="..\:/Users/gangw/Desktop/CODE/EStartUpIndia/InstaPosNew/app/src/main/res/layout/company_logo.xml" value="0.38333333333333336" />
+        <entry key="..\:/Users/gangw/Desktop/CODE/EStartUpIndia/InstaPosNew/app/src/main/res/layout/company_profile.xml" value="0.38333333333333336" />
+        <entry key="..\:/Users/gangw/Desktop/CODE/EStartUpIndia/InstaPosNew/app/src/main/res/layout/contect_details.xml" value="0.38333333333333336" />
+        <entry key="..\:/Users/gangw/Desktop/CODE/EStartUpIndia/InstaPosNew/app/src/main/res/layout/content_main.xml" value="0.25" />
+        <entry key="..\:/Users/gangw/Desktop/CODE/EStartUpIndia/InstaPosNew/app/src/main/res/layout/create_order.xml" value="0.161328125" />
+        <entry key="..\:/Users/gangw/Desktop/CODE/EStartUpIndia/InstaPosNew/app/src/main/res/layout/customer_details.xml" value="0.22" />
+        <entry key="..\:/Users/gangw/Desktop/CODE/EStartUpIndia/InstaPosNew/app/src/main/res/layout/customer_list.xml" value="0.15" />
+        <entry key="..\:/Users/gangw/Desktop/CODE/EStartUpIndia/InstaPosNew/app/src/main/res/layout/customers.xml" value="0.15" />
+        <entry key="..\:/Users/gangw/Desktop/CODE/EStartUpIndia/InstaPosNew/app/src/main/res/layout/dashboard.xml" value="0.22" />
+        <entry key="..\:/Users/gangw/Desktop/CODE/EStartUpIndia/InstaPosNew/app/src/main/res/layout/dialog_radiogroup.xml" value="0.15" />
+        <entry key="..\:/Users/gangw/Desktop/CODE/EStartUpIndia/InstaPosNew/app/src/main/res/layout/export_file.xml" value="0.15" />
+        <entry key="..\:/Users/gangw/Desktop/CODE/EStartUpIndia/InstaPosNew/app/src/main/res/layout/items.xml" value="0.161328125" />
+        <entry key="..\:/Users/gangw/Desktop/CODE/EStartUpIndia/InstaPosNew/app/src/main/res/layout/login_screen.xml" value="0.38333333333333336" />
+        <entry key="..\:/Users/gangw/Desktop/CODE/EStartUpIndia/InstaPosNew/app/src/main/res/layout/mode_of_payment.xml" value="0.2875" />
+        <entry key="..\:/Users/gangw/Desktop/CODE/EStartUpIndia/InstaPosNew/app/src/main/res/layout/nav_header_main.xml" value="0.287109375" />
+        <entry key="..\:/Users/gangw/Desktop/CODE/EStartUpIndia/InstaPosNew/app/src/main/res/layout/options_dialog.xml" value="0.15" />
+        <entry key="..\:/Users/gangw/Desktop/CODE/EStartUpIndia/InstaPosNew/app/src/main/res/layout/order_created.xml" value="0.161328125" />
+        <entry key="..\:/Users/gangw/Desktop/CODE/EStartUpIndia/InstaPosNew/app/src/main/res/layout/order_item_list.xml" value="0.2875" />
+        <entry key="..\:/Users/gangw/Desktop/CODE/EStartUpIndia/InstaPosNew/app/src/main/res/layout/order_list.xml" value="0.15" />
+        <entry key="..\:/Users/gangw/Desktop/CODE/EStartUpIndia/InstaPosNew/app/src/main/res/layout/orders.xml" value="0.15" />
+        <entry key="..\:/Users/gangw/Desktop/CODE/EStartUpIndia/InstaPosNew/app/src/main/res/layout/products_list.xml" value="0.38333333333333336" />
+        <entry key="..\:/Users/gangw/Desktop/CODE/EStartUpIndia/InstaPosNew/app/src/main/res/layout/reports.xml" value="0.25" />
+        <entry key="..\:/Users/gangw/Desktop/CODE/EStartUpIndia/InstaPosNew/app/src/main/res/layout/row_spinner.xml" value="0.287109375" />
+        <entry key="..\:/Users/gangw/Desktop/CODE/EStartUpIndia/InstaPosNew/app/src/main/res/layout/setting.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/gangw/Desktop/CODE/EStartUpIndia/InstaPosNew/app/src/main/res/layout/sign_up_screen.xml" value="0.38333333333333336" />
+        <entry key="..\:/Users/gangw/Desktop/CODE/EStartUpIndia/InstaPosNew/app/src/main/res/layout/splah_screen.xml" value="0.10666666666666667" />
+        <entry key="..\:/Users/gangw/Desktop/CODE/EStartUpIndia/InstaPosNew/app/src/main/res/menu/activity_main_drawer.xml" value="0.287109375" />
+        <entry key="..\:/Users/mehul/AndroidStudioProjects/Pos-master/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mehul/AndroidStudioProjects/Pos-master/app/src/main/res/layout/app_bar_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mehul/AndroidStudioProjects/Pos-master/app/src/main/res/layout/bussiness_type.xml" value="0.25416666666666665" />
+        <entry key="app/src/main/res/drawable/grad_background.xml" value="0.2" />
+        <entry key="app/src/main/res/drawable/ic_arrow.xml" value="0.2" />
+        <entry key="app/src/main/res/drawable/ic_cart.xml" value="0.20202702702702702" />
+        <entry key="app/src/main/res/drawable/ic_envelope.xml" value="0.23359375" />
+        <entry key="app/src/main/res/drawable/ic_home_address.xml" value="0.23359375" />
+        <entry key="app/src/main/res/drawable/ic_left_arrow.xml" value="0.4671875" />
+        <entry key="app/src/main/res/drawable/ic_option.xml" value="0.23359375" />
+        <entry key="app/src/main/res/drawable/ic_rupee_indian.xml" value="0.20202702702702702" />
+        <entry key="app/src/main/res/drawable/ic_search.xml" value="0.23359375" />
+        <entry key="app/src/main/res/drawable/ic_smartphone.xml" value="0.23359375" />
+        <entry key="app/src/main/res/drawable/ic_user.xml" value="0.23359375" />
+        <entry key="app/src/main/res/drawable/ic_whatsapp.xml" value="0.23359375" />
+        <entry key="app/src/main/res/drawable/round_line.xml" value="0.20202702702702702" />
+        <entry key="app/src/main/res/drawable/rounded_back.xml" value="0.23359375" />
+        <entry key="app/src/main/res/layout-v23/login_screen.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/bussiness_type.xml" value="0.44296875" />
+        <entry key="app/src/main/res/layout/cart.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/company_logo.xml" value="0.44296875" />
+        <entry key="app/src/main/res/layout/company_profile.xml" value="0.44296875" />
+        <entry key="app/src/main/res/layout/contect_details.xml" value="0.44296875" />
+        <entry key="app/src/main/res/layout/customer_details.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/dashboard.xml" value="0.45" />
+        <entry key="app/src/main/res/layout/login_screen.xml" value="0.423567373529793" />
+        <entry key="app/src/main/res/layout/mode_of_payment.xml" value="0.19155405405405404" />
+        <entry key="app/src/main/res/layout/products_list.xml" value="0.2403457600944587" />
+        <entry key="app/src/main/res/layout/sign_up_screen.xml" value="0.44296875" />
+        <entry key="app/src/main/res/layout/splah_screen.xml" value="0.28125" />
+        <entry key="app/src/main/res/xml/filepaths.xml" value="0.44296875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

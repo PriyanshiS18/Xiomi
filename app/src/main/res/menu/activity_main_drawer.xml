@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Orders"
+            android:icon="@drawable/ic_order"
+            android:iconTint="@color/grad_color_2"
+            android:title="Orders"
+            app:iconTint="@color/grad_color_2" />
+        <item
+            android:id="@+id/Customers"
+            android:icon="@drawable/ic_customer"
+            android:iconTint="@color/grad_color_2"
+            android:title="Customers"
+            app:iconTint="@color/grad_color_2" />
+        <item
+            android:id="@+id/Items"
+            android:icon="@drawable/ic_items"
+            android:iconTint="@color/grad_color_2"
+            android:title="Items"
+            app:iconTint="@color/grad_color_2" />
+        <item
+            android:id="@+id/reports"
+            android:icon="@drawable/ic_report"
+            android:iconTint="@color/grad_color_2"
+            android:title="Reports"
+            app:iconTint="@color/grad_color_2" />
+
+
+        <item
+            android:id="@+id/firstOne"
+            android:iconTint="@color/grad_color_2"
+            android:orderInCategory="1"
+            android:title="Sale Report"
+            android:visible="false"
+            app:iconTint="@color/grad_color_2"
+            app:showAsAction="ifRoom">
+            <menu>
+                <item
+                    android:id="@+id/saleByCustomer"
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="Sale by Customer" />
+                <item
+                    android:id="@+id/saleByProduct"
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="Sale By Product" />
+                <item
+                    android:id="@+id/saleByHSNSAC"
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="Sale By HSN/SAC" />
+                <item
+                    android:id="@+id/ordersReport"
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="Orders Report" />
+            </menu>
+        </item>
+
+        <item
+            android:id="@+id/setting"
+            android:icon="@drawable/ic_settings"
+            android:iconTint="@color/grad_color_2"
+            android:title="Setting"
+            app:iconTint="@color/grad_color_2" />
+        <item
+
+            android:id="@+id/syncData"
+            android:icon="@drawable/ic_sync"
+            android:iconTint="@color/grad_color_2"
+            android:title="Sync Data"
+            app:iconTint="@color/grad_color_2" />
+        <item
+            android:id="@+id/shareInstaPOS"
+            android:icon="@drawable/ic_share"
+            android:iconTint="@color/grad_color_2"
+            android:title="Share InstaPOS"
+            app:iconTint="@color/grad_color_2" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_logout"
+            android:iconTint="@color/grad_color_2"
+            android:title="Logout"
+            app:iconTint="@color/grad_color_2" />
+    </group>
+</menu>

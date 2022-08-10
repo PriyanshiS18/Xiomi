@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">InstaPOS</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search">Search Items</string>
+    <string name="discount">Discount</string>
+    <string name="category">Category</string>
+    <string name="all_items">All Items</string>
+    <string name="manufacturer">Manufacture</string>
+    <string name="trader_retailer">Trader / Retailer</string>
+    <string name="pharma_chemist">Pharma / Chemist</string>
+    <string name="travelling_agency">Travelling Agency</string>
+    <string name="service_provider">Service Provider</string>
+    <string name="others">Others</string>
+    <string name="wholeseller">Wholeseller</string>
+    <string name="company_logo">Company Logo</string>
+    <string name="upload_png_or_jpg_file_max_size_of_300_kb">Upload PNG or JPG File. Max size of 300 kb</string>
+    <string name="back">Back</string>
+    <string name="next">Next</string>
+    <string name="enter_your_company_details">Enter your company details</string>
+    <string name="contact_details">CONTACT DETAILS</string>
+    <string name="enter_business_contact_details">Enter business contact details</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+</resources>

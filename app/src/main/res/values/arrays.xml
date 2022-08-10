@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bussiness_type">
+        <item>Type of Entity *</item>
+        <item>Sole Proprietor</item>
+        <item>Partnership Firm</item>
+        <item>LLP</item>
+        <item>OPC</item>
+        <item>Private Limited Company</item>
+        <item>Public Limited Company</item>
+        <item>Society/Trust/NGO</item>
+        <item>Others</item>
+    </string-array>
+
+
+    <string-array name="states">
+        <item>States</item>
+        <item>ANDM &amp; NICOBAR</item>
+        <item>ANDHRA PRADESH</item>
+        <item>ARUNACHAL PRAD</item>
+        <item>ASSAM</item>
+        <item>BIHAR</item>
+        <item>CHANDIGARH</item>
+        <item>DADRA NGR HAV &amp; DAMAN DIU</item>
+        <item>DELHI</item>
+        <item>GOA</item>
+        <item>GUJARAT</item>
+        <item>HARYANA</item>
+        <item>HIMACHAL PRADESH</item>
+        <item>JAMMU &amp; KASHMIR</item>
+        <item>KARNATAKA</item>
+        <item>KERALA</item>
+        <item>LAKSHWADEEP</item>
+        <item>MADHYA PRADESH</item>
+        <item>MAHARASHTRA</item>
+        <item>MANIPUR</item>
+        <item>MEGHALYA</item>
+        <item>MIZORAM</item>
+        <item>NAGALAND</item>
+        <item>ORISSA</item>
+        <item>PONDICHERRY</item>
+        <item>PUNJAB</item>
+        <item>RAJASTHAN</item>
+        <item>SIKKIM</item>
+        <item>TAMILNADU</item>
+        <item>TRIPURA</item>
+        <item>UTTAR PRADESH</item>
+        <item>WEST BENGAL</item>
+        <item>CHATTISHGARH</item>
+        <item>UTTARAKHAND</item>
+        <item>JHARKHAND</item>
+        <item>TELANGANA</item>
+        <item>OUTSIDE INDIA</item>
+        <item>LADAKH</item>
+    </string-array>
+</resources>

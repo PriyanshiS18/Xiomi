@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.frags.signUp.SignUpScreen">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <RelativeLayout
+                android:id="@+id/signIN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:gravity="center"
+                android:padding="10dp">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/message_already"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Already having account !"
+                    android:textSize="16dp" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/message_already"
+                    android:text="Sign in"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:textSize="16dp"
+                    android:textStyle="italic" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_weight="1"
+
+                    android:background="@android:color/darker_gray" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="OR"
+                    android:textColor="@color/black"
+                    android:textSize="16dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/darker_gray" />
+
+            </LinearLayout>
+
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+
+                app:cardElevation="@dimen/car_elevation_small"
+                app:cardUseCompatPadding="true">
+
+                <EditText
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@android:color/transparent"
+                    android:drawableStart="@drawable/ic_user"
+                    android:ems="10"
+                    android:hint="  Name"
+                    android:inputType="textPersonName"
+                    android:padding="10dp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+
+                app:cardElevation="@dimen/car_elevation_small"
+                app:cardUseCompatPadding="true">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:maxLength="10"
+                        android:id="@+id/mobile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1"
+                        android:background="@android:color/transparent"
+                        android:drawableStart="@drawable/ic_smartphone"
+                        android:ems="10"
+                        android:hint="  Mobile Number"
+                        android:inputType="phone"
+                        android:padding="10dp" />
+
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+
+                app:cardElevation="@dimen/car_elevation_small"
+                app:cardUseCompatPadding="true">
+
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@android:color/transparent"
+                    android:drawableStart="@drawable/ic_envelope"
+                    android:ems="10"
+                    android:hint="  Email ID"
+                    android:inputType="textEmailAddress"
+                    android:padding="10dp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                app:cardCornerRadius="@dimen/card_corner_radius"
+
+                app:cardElevation="@dimen/car_elevation_small"
+                app:cardUseCompatPadding="true">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:boxBackgroundMode="none"
+                    app:passwordToggleEnabled="true">
+
+                    <EditText
+                        android:id="@+id/password"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@android:color/transparent"
+                        android:drawableStart="@android:drawable/ic_lock_idle_lock"
+                        android:ems="10"
+                        android:hint="  Password"
+                        android:inputType="textPassword"
+                        android:padding="10dp"
+
+                        app:drawableTint="@color/grad_color_2" />
+                </com.google.android.material.textfield.TextInputLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-10dp"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+
+                app:cardElevation="@dimen/car_elevation_small"
+                app:cardUseCompatPadding="true">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:boxBackgroundMode="none"
+                    app:passwordToggleEnabled="true">
+
+                    <EditText
+                        android:id="@+id/confirmPassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@android:color/transparent"
+                        android:drawableStart="@android:drawable/ic_lock_idle_lock"
+                        android:ems="10"
+                        android:hint="  Confirm Password"
+                        android:inputType="textPassword"
+                        android:padding="10dp"
+                        app:drawableTint="@color/grad_color_2" />
+                </com.google.android.material.textfield.TextInputLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/li_subscribe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/terms"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/tv_agree"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_toEndOf="@+id/cb_term"
+                    android:gravity="center"
+                    android:text="I agree with" />
+
+                <TextView
+
+                    android:id="@+id/term_condition"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+
+                    android:layout_toEndOf="@+id/tv_agree"
+                    android:text="Terms &amp; conditions"
+                    android:textColor="@color/grad_color_2" />
+
+                <TextView
+                    android:id="@+id/tv_and"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+
+                    android:layout_toEndOf="@+id/term_condition"
+                    android:text="and" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+            <TextView
+                android:id="@+id/tv_privacy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="-10dp"
+                android:gravity="center"
+                android:text="Privacy Policy"
+                android:textColor="@color/grad_color_2" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/signUp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/colorPrimary"
+                app:cardBackgroundColor="?attr/colorPrimary"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="@dimen/car_elevation_small"
+                app:cardUseCompatPadding="true">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/rounded_back"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Sign Up"
+                    android:textAllCaps="true"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
